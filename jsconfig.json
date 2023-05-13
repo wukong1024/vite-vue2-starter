@@ -1,0 +1,13 @@
+{
+  "vueCompilerOptions": {
+    "target": 2.7
+  },
+  "compilerOptions": {
+    "allowJs": true
+  },
+  // "include": [
+  //   "./src/*.ts",
+  //   "./src/*.vue",
+  //   "./src/*.ext",
+  // ]
+}
