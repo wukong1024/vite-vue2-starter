@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
+  <div>
     <h1>{{ $route.name }}</h1>
-    123
   </div>
 </template>
 <script>
@@ -17,8 +16,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.container {
-  margin-top: 10px;
-}
-</style>
+<style lang="scss" scoped></style>

@@ -16,7 +16,17 @@ export default defineConfig({
   },
   define: {
     'process.env': {}
-  }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // example : additionalData: `@import "./src/design/styles/variables";`
+        // don't need include file extend .scss
+        // 全局引入scss变量
+        additionalData: `@import "./src/assets/css/custom-bulma";`
+      },
+    },
+  },
 })
 
 
