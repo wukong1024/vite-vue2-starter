@@ -5,15 +5,15 @@
 </template>
 <script>
 export default {
-  data () {
-    return {}
+  data() {
+    return {};
   },
 
-  created () { },
-  mounted () { },
+  created() {},
+  mounted() {},
   methods: {},
-  watch: {}
-}
+  watch: {},
+};
 </script>
 
 <style lang="scss" scoped></style>

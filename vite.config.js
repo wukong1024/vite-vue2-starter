@@ -1,21 +1,21 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
 
-import vue from '@vitejs/plugin-vue2';
-import path from 'path'
+import vue from "@vitejs/plugin-vue2";
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   server: {
-    port: 8080
+    port: 8080,
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src')
-    }
+      "@": path.resolve(__dirname, "src"),
+    },
   },
   define: {
-    'process.env': {}
+    "process.env": {},
   },
   css: {
     preprocessorOptions: {
@@ -23,10 +23,8 @@ export default defineConfig({
         // example : additionalData: `@import "./src/design/styles/variables";`
         // don't need include file extend .scss
         // 全局引入scss变量
-        additionalData: `@import "./src/assets/css/custom-bulma";`
+        additionalData: `@import "./src/assets/css/page.scss";`,
       },
     },
   },
-})
-
-
+});
