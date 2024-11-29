@@ -23,7 +23,7 @@ export default defineConfig({
         // example : additionalData: `@import "./src/design/styles/variables";`
         // don't need include file extend .scss
         // 全局引入scss变量
-        additionalData: `@import "./src/assets/css/page.scss";`,
+        additionalData: `@use "./src/assets/css/page.scss";`,
       },
     },
   },
