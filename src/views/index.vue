@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>{{ $route.name }}</h1>
+    <my-box title="标题"></my-box>
   </div>
 </template>
 <script>
@@ -16,4 +17,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+h1 {
+  color: $main-color;
+}
+</style>
